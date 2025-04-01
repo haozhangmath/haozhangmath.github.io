@@ -9,56 +9,47 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+---
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Education
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+**University of Glasgow**  
+Ph.D. in Mathematics, expected August 2025  
+*Supervisor: Prof. Michael Wemyss*  
+Thesis: *Local forms for the double An quiver and Gopakumar–Vafa invariants*
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+**Nankai University**  
+M.S. in Mathematics  
+*Supervisor: Prof. Ming Ding*  
+Dissertation: *Ring-theoretic properties of generalized cluster algebras*
+
+**Beijing University of Posts and Telecommunications**  
+B.E. in Computer Science and Technology  
+
+---
+
+
+
+---
+
+
+## Technical Skills
+
+- **Programming & Data Analysis:** Python (Pandas, NumPy, TensorFlow), R, SQL  
+- **Machine Learning & Statistics:** Regression, Bayesian inference, Neural Networks  
+- **Big Data & Cloud:** Spark, Hadoop, AWS  
+- **Version Control:** Git/GitHub
+
+---
+
+## Certifications and Projects (Coursera)
+
+- *Machine Learning:* Neural Networks, Convolutional Networks, Sequence Models, Reinforcement Learning  
+- *Statistics:* Introduction to Probability and Data with R, Inferential & Bayesian Statistics  
+- *Programming:* Python for Everybody, Python Data Structures, Using Databases with Python  
+- *Cloud Computing:* AWS Cloud Technical Essentials  
+- *Version Control:* Introduction to Git and GitHub  
+
+---
+
