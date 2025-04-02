@@ -61,6 +61,6 @@ I am currently working to **generalize the techniques and results** developed fo
 
 I have experience in teaching and mentoring students through grading undergraduate assignments at **Nankai University**. I also volunteered at the **Glasgow Science Festival**, guiding children in mathematical games to strengthen their problem-solving intuition.  
 As part of my future goals, I look forward to contributing to teaching duties by delivering lectures, supervising exercises, and mentoring students. 
----
+
 
 Thank you for visiting my site! You can explore my [CV](/cv/), [publications](/publications/), [projects](/portfolio/) and [teaching](/teaching/) through the navigation bar.
