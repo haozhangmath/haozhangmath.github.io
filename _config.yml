@@ -29,7 +29,7 @@ author:
   location         : "Glasgow"
   employer         : "University of Glasgow"
   uri              : # URL
-  email            : "h.zhang.4@research.gla.ac.uk" 
+  email            : 
 
   # Academic websites
   arxiv            :  "http://arxiv.org/a/zhang_h_17"
@@ -37,7 +37,7 @@ author:
   impactstory      : # URL
   orcid            : # "http://orcid.org/yourorcidurl"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
 
@@ -45,7 +45,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : # "academicpages"
+  github           :  "haozhangmath"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -59,7 +59,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         :   "hao-zhang-glasgow"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

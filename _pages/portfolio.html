@@ -1,14 +1,60 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "Projects"
 permalink: /portfolio/
 author_profile: true
 ---
 
-{% include base_path %}
+<p>
+This page highlights selected projects at the intersection of <strong>mathematics, data science, and programming</strong>, reflecting my growing interest in applying analytical thinking to real-world datasets and theoretical structures alike.
+</p>
+
+<p>
+In addition to data analysis projects, I apply computational tools such as <strong>GAP</strong> and <strong>SageMath</strong> in my pure math research, enabling experimentation, testing of conjectures, and symbolic verification in the study of algebraic and geometric objects.
+</p>
 
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
 
+<h2>Computational Algebra Projects</h2>
+
+<h3>🧮 Computational Techniques in Algebraic Geometry</h3>
+<p>
+My research integrates deep algebraic methods with modern computational tools. These techniques support the exploration of geometric structures and singularities by enabling rigorous calculations that would be otherwise intractable by hand.
+</p>
+<ul>
+  <li>Used <strong>GAP</strong> to compute dimensions of Jacobi algebras, helping test and refine conjectures in noncommutative algebra</li>
+  <li>Explored deformation theory and contraction algebras using computational examples</li>
+  <li>Collaborated on the <strong>OSCAR project</strong> during the <em>Computational Algebraic Geometry Workshop</em> in Durham, computing intersections of exceptional curves on surfaces and 3-folds</li>
+</ul>
+
+
+
+<h2>Data Analysis Projects</h2>
+
+<h3>📈 Longitudinal Analysis of Antidepressant Prescribing in NHS England (2021–2024)</h3>
+<p>
+This project uses Python and open NHS prescription datasets to analyze national and regional trends in antidepressant drug usage across England. Data was processed and visualized using <code>pandas</code>, <code>matplotlib</code>, and <code>seaborn</code>.
+</p>
+<ul>
+  <li>Aggregated 46 months of prescription data across 7 NHS regions and 32 drug types</li>
+  <li>Identified volume vs. cost discrepancies and drug-specific trends (e.g., Vortioxetine’s high cost)</li>
+  <li>Created detailed visualizations including bar charts, heatmaps, and dual-axis line plots</li>
+  <li>Built standardized metrics to compare prescribing practices by region and over time</li>
+  <li>Performed exploratory analytics to recommend cost-efficient alternatives and future forecasting</li>
+</ul>
+<p><a href="{{ site.baseurl }}/files/Data_Analysis_Project_with_Python.pdf" target="_blank">📄 View Full Report (PDF)</a></p>
+
+<hr>
+
+<h3>📊 Life Expectancy and Socioeconomic Indicators in 1970s U.S. States</h3>
+<p>
+This R-based project investigates the impact of regional socioeconomic factors on life expectancy using hierarchical Bayesian modeling with <code>rjags</code>. It combines state-level data from the 1970s with derived features like population density.
+</p>
+<ul>
+  <li>Explored correlations through scatter plots, correlation matrices, and choropleth maps</li>
+  <li>Identified murder rate and illiteracy as most negatively correlated with life expectancy</li>
+  <li>Fitted two Bayesian hierarchical linear models and compared via DIC</li>
+  <li>Concluded that murder, high school graduation, and frost days were most predictive</li>
+  <li>Validated model assumptions using residual plots and normality checks</li>
+</ul>
+<p><a href="{{ site.baseurl }}/files/Data_Analysis_Project_with_R.pdf" target="_blank">📄 View Full Report (PDF)</a></p>

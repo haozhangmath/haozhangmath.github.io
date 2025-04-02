@@ -5,32 +5,28 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<h2>Publications and Preprints</h2>
+<ol>
+  <li>
+    <strong>Local Forms for the Double \(A_n\) Quiver</strong>  
+    <br><em>arXiv:2412.10042</em>  
+    <p>
+      This paper studies the noncommutative singularity theory of the double \(A_n\) quiver \( Q_n \) (with a single loop at each vertex), with applications to algebraic geometry and representation theory. We give various intrinsic definitions of a Type A potential on \( Q_n \), then via coordinate changes we (1) prove a monomialization result that expresses these potentials in a particularly nice form, (2) prove that Type A potentials precisely correspond to crepant resolutions of \( cA_n \) singularities, and (3) solve the Realisation Conjecture of Brown–Wemyss in this setting.
+    </p>
+    <p>
+      For \( n \leq 3 \), we furthermore give a full classification of Type A potentials (without loops) up to isomorphism, and those with finite-dimensional Jacobi algebras up to derived equivalence. There are various algebraic corollaries, including to certain tame algebras of quaternion type due to Erdmann, where we describe all basic algebras in the derived equivalence class.
+    </p>
+    <p><a href="https://arxiv.org/abs/2412.10042" target="_blank">View on arXiv</a></p>
+  </li>
 
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+  <li>
+    <strong>Gopakumar–Vafa Invariants of Crepant Resolutions of cAn Singularities</strong>  
+    <br><em>In preparation</em>  
+    <p>
+      This paper studies Gopakumar–Vafa (GV) invariants of crepant resolutions of \( cA_n \) singularities. We (1) generalize GV invariants to crepant partial resolutions of \( cA_n \) singularities, (2) show that generalized GV invariants also hold for Toda’s formula and are determined by their associated contraction algebra, (3) demonstrate that generalized GV invariants recover classical GV invariants in the case of crepant resolutions, (4) introduce a filtration structure on the parameter space of contraction algebras associated to \( cA_n \) crepant resolutions with respect to generalized GV invariants, and (5) provide numerical constraints on the possible tuples of generalized GV invariants that can arise.
+    </p>
+    <p>
+      We further give all the tuples that arise from generalized GV invariants of \( cA_2 \) crepant resolutions.
+    </p>
+  </li>
+</ol>
