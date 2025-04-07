@@ -38,7 +38,7 @@ In parallel, I explore the synergy between **pure mathematics and machine learni
 📄 *Local Forms for the Double $$A_n$$ Quiver* ([arXiv:2412.10042](https://arxiv.org/abs/2412.10042)):  
 Studies the noncommutative singularity theory of the double $$A_n$$ quiver, proving a monomialization result and identifying their correspondence to crepant resolutions of $$ cA_n $$ singularities.
 
-📄 *Gopakumar–Vafa Invariants associated to* $$ cA_n $$ *Singularities* (in preparation):  
+📄 *Gopakumar–Vafa Invariants associated to* $$ cA_n $$ *Singularities* ([arXiv:2504.03139](https://arxiv.org/abs/2504.03139)):   
 Develops and generalizes GV invariants to crepant partial resolutions, showing their connection to contraction algebras and Toda’s formula.
 
 🔬 **Research Outlook**:  
