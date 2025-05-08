@@ -9,6 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
+---
+
+<p><a href="{{ site.baseurl }}/files/CV.pdf" target="_blank">📄 View Full CV (PDF)</a></p>
 
 ---
 
@@ -29,7 +32,7 @@ B.E. in Computer Science and Technology
 
 ---
 
-
+<p><a href="{{ site.baseurl }}/files/CV.pdf" target="_blank">📄 View Deta (PDF)</a></p>
 
 ---
 
